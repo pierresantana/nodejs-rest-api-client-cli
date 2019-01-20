@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-rest-api-client-cli",
+  "version": "1.0.0",
+  "description": "A CLI client to the sample REST API using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierresantana/nodejs-rest-api-client-cli.git"
+  },
+  "keywords": [
+    "Node.js",
+    "cli",
+    "HTTP",
+    "REST"
+  ],
+  "author": "Pierre Santana <pierresantana@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pierresantana/nodejs-rest-api-client-cli/issues"
+  },
+  "homepage": "https://github.com/pierresantana/nodejs-rest-api-client-cli#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^4.0.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.1",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
+    "moment": "^2.23.0"
+  }
+}
